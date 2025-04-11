@@ -1,11 +1,11 @@
-# 🛍️ React Shopping Website using Fake Store API
+# React Shopping Website using Fake Store API
 
 This is a responsive shopping website built using **React.js** and the **Fake Store API**. It includes user authentication, product listing, product detail view, cart functionality, and a smooth user experience — all wrapped in a clean, modern UI.
 
-## 🚀 Live Demo
-👉 [Live Site Link](https://fake-stor.netlify.app/)
+## Live Demo
+ [Live Site Link](https://fake-stor.netlify.app/)
 
-## 📂 GitHub Repository
+## GitHub Repository
 🔗 [Repository Link](https://github.com/danixDe/fake_store)
 
 ---
@@ -22,7 +22,7 @@ This is a responsive shopping website built using **React.js** and the **Fake St
 
 ---
 
-## 🔐 Login Credentials
+## Login Credentials
 
 Use the Fake Store API credentials to login:
 ```
@@ -34,35 +34,35 @@ Password: m38rmF$
 
 ---
 
-## 💡 Features
+## Features
 
-### ✅ Login Page
+### Login Page
 - Simple username/password form
 - Authenticates using `POST /auth/login`
 - Stores JWT token in `localStorage`
 - On success: redirects to product listing
 
-### 🏠 Home (Product Listing Page)
+### Home (Product Listing Page)
 - Fetches all products via `GET /products`
 - Category-based filtering via `/products/category/:category`
 - Responsive grid layout
 - (Optional) Search functionality
 
-### 🔍 Product Detail Page
+### Product Detail Page
 - Displays:
   - Product image
   - Title & description
   - Price
   - "Add to Cart" button
 
-### 🛒 Cart Page
+### Cart Page
 - Shows all added products
 - Allows quantity updates and removal
 - Displays total price
 - Checkout functionality:
   - On click: clears cart and shows "Order placed successfully!" popup (auto-disappears after 4s)
 
-### 🔗 Navigation/Header
+### Navigation/Header
 - Links: `Home | Cart | Logout`
 - Displays total cart items dynamically
 - Logout:
@@ -71,7 +71,7 @@ Password: m38rmF$
 
 ---
 
-## 📦 Folder Structure (High-Level)
+## Folder Structure (High-Level)
 
 ```
 src/
@@ -92,7 +92,7 @@ src/
 
 ---
 
-## 🛠️ How to Run Locally
+## How to Run Locally
 
 ```bash
 git clone https://github.com/danixDe/fake_store.git
@@ -102,7 +102,7 @@ npm run dev
 ```
 
 ---
-## 🧑‍💻 How to Use
+## How to Use
 
 1. **Login** using the Fake Store API test credentials.
 2. **Home Page**:
@@ -120,7 +120,7 @@ npm run dev
 
 ---
 
-## 🙌 Final Notes
+## Final Notes
 
 This project was created as part of a front-end internship assignment and focuses on demonstrating:
 - Real-world React architecture
