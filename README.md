@@ -6,11 +6,11 @@ This is a responsive shopping website built using **React.js** and the **Fake St
  [Live Site Link](https://fake-stor.netlify.app/)
 
 ## GitHub Repository
-🔗 [Repository Link](https://github.com/danixDe/fake_store)
+ [Repository Link](https://github.com/danixDe/fake_store)
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **React.js** (Vite/CRA)
 - **React Router v6+**
