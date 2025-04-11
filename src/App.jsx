@@ -31,7 +31,7 @@ function App() {
                 <Route path="/cart" element={
                   <PrivateRoute>
                     <Cart />
-                </PrivateRoute> } />
+              </PrivateRoute> } />
                 
         <Route path="*" element={<Navigate to="/" replace />} />
 
