@@ -60,21 +60,21 @@ const Cart = () => {
                   onClick={() => handleUpdateQuantity(item.id, item.quantity - 1)}
                   className={styles.quantityButton}
                 >
-                  <Minus className="w-4 h-4" />
+                  <Minus className={styles.control} />
                 </button>
                 <span className={styles.quantity}>{item.quantity}</span>
                 <button
                   onClick={() => handleUpdateQuantity(item.id, item.quantity + 1)}
                   className={styles.quantityButton}
                 >
-                  <Plus className="w-4 h-4" />
+                  <Plus className={styles.control} />
                 </button>
               </div>
               <button
                 onClick={() => handleRemoveItem(item.id)}
                 className={styles.removeButton}
               >
-                <Trash2 className="w-5 h-5" />
+                <Trash2 className={styles.control} />
               </button>
             </div>
           </div>
@@ -85,8 +85,7 @@ const Cart = () => {
             <span>${state.total.toFixed(2)}</span>
           </div>
           <button
-            onClick={handleCheckout}
-            className={styles.checkoutButton}
+            onClick={handleCheckout} className={styles.checkoutButton}
           >
             Checkout
           </button>

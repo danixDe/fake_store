@@ -61,11 +61,8 @@ const Home = () => {
       <div className={styles.filters}>
         <div className={styles.searchContainer}>
           <input
-            type="text"
-            placeholder="Search products..."
-            className={styles.searchInput}
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            type="text" placeholder="Search products..." className={styles.searchInput}
+            value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
           />
           <Search className={styles.searchIcon} />
         </div>
@@ -86,15 +83,11 @@ const Home = () => {
       <div className={styles.productGrid}>
         {filteredProducts.map((product) => (
           <Link
-            key={product.id}
-            to={`/product/${product.id}`}
-            className={styles.productCard}
+            key={product.id} to={`/product/${product.id}`} className={styles.productCard}
           >
             <div className={styles.imageContainer}>
               <img
-                src={product.image}
-                alt={product.title}
-                className={styles.productImage}
+                src={product.image} alt={product.title} className={styles.productImage}
               />
             </div>
             <div className={styles.productInfo}>
